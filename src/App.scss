@@ -1,0 +1,71 @@
+header {
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 55px;
+
+    img {
+        width: 24px;
+        margin-right: 7px;
+    }
+
+    h1 {
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+}
+
+.journalEntry {
+    margin: 45px 40px;
+
+    .cards {
+        display: flex;
+        align-items: center;
+
+        .cardInfo {
+            text-align: left;
+
+            .marker {
+                width: 7px;
+                margin-right: 4px;
+            }
+
+            p {
+                span {
+                    text-transform: uppercase;
+                    font-size: 0.7rem;
+                    margin-right: 12px;
+                }
+
+                a {
+                    color: #2B283A;
+                    font-size: 0.7rem;
+
+                    &:hover {
+                        color: #918E9B;
+                    }
+                }
+
+                &.title {
+                    font-weight: bold;
+                }
+            }
+
+            h2 {
+                margin-top: 7px;
+                margin-bottom: 17px;
+            }
+
+            .description {
+                line-height: 1.5;
+                font-size: 0.8rem;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;  
+                overflow: hidden;
+            }
+        }
+    }
+}
