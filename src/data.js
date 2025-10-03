@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         img: {
-            src: "https://scrimba.com/links/travel-journal-japan-image-url",
+            src: "mount_fuji.png",
             alt: "Mount Fuji"
         },
         title: "Mount Fuji",
@@ -14,7 +14,7 @@ export default [
     {
         id: 2,
         img: {
-            src: "https://scrimba.com/links/travel-journal-australia-image-url",
+            src: "sydney_opera_house.png",
             alt: "Sydney Opera House"
         },
         title: "Sydney Opera House",
@@ -26,7 +26,7 @@ export default [
     {
         id: 3,
         img: {
-            src: "https://scrimba.com/links/travel-journal-norway-image-url",
+            src: "geirangerfjord.png",
             alt: "Geirangerfjord"
         },
         title: "Geirangerfjord",
