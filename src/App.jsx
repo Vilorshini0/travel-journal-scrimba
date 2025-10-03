@@ -1,17 +1,31 @@
 import './App.css'
 import Header from './components/Header'
 import Entry from './components/Entry'
+import data from './data'
 
-function App() {
+export default function App() {
+    const entryElements = data.map((entry)=> {
+
+        return (
+            <Entry 
+                img={entry.img}
+                title = {entry.title}
+                country = {entry.country}
+                googleMapsLink = {entry.googleMapsLink}
+                dates = {entry.dates}
+                text = {entry.text}
+            />
+        )
+    });
+
     return (
         <>
             <Header/>
             <main className='journalEntry'>
-                <Entry/>
+                {entryElements}
                 <div id='testing'></div>
             </main>
         </>
     )
 }
-
-export default App
+PENIS <3 Love XD
