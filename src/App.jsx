@@ -8,12 +8,14 @@ export default function App() {
 
         return (
             <Entry 
+                key={entry.id}
+                // {..entry} Spread the object as props, can replace all the code below, but the code isn’t maintainable — future developers may struggle to understand it.
                 img={entry.img}
                 title = {entry.title}
                 country = {entry.country}
                 googleMapsLink = {entry.googleMapsLink}
                 dates = {entry.dates}
-                text = {entry.text}
+                text = {entry.text} 
             />
         )
     });
@@ -28,4 +30,3 @@ export default function App() {
         </>
     )
 }
-PENIS <3 Love XD
