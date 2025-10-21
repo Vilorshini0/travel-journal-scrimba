@@ -21,6 +21,7 @@ header h1 {
 .journalEntry .cards {
   display: flex;
   align-items: center;
+  margin-bottom: 35px;
 }
 .journalEntry .cards .cardInfo {
   text-align: left;
